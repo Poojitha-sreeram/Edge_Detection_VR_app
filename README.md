@@ -54,17 +54,17 @@ This project showcases a complete integration of:
 ### Android App - Edge Detection Mode
 Real-time edge detection visualization running on Android with Canny algorithm. Shows detected edges highlighted on the processed frame with 59 FPS performance.
 
-![Edge Detection Mode](app_screenshot_fixed.png)
+![Edge Detection Mode](Edge%20detection.jpg)
 
 ### Android App - Raw Feed Mode
 Raw camera feed displayed in real-time using OpenGL ES 2.0 rendering. Shows the original camera input before edge detection processing.
 
-![Raw Feed Mode](screenshot_edge_test.png)
+![Raw Feed Mode](Raw%20detection.jpg)
 
 ### Web Viewer Dashboard
 TypeScript-based web viewer with real-time frame display, FPS monitoring, and processing statistics. Features responsive design with interactive controls.
 
-![Web Viewer Dashboard](camera_feed.png)
+![Web Viewer Dashboard](web.jpg)
 
 ---
 
@@ -84,38 +84,52 @@ TypeScript-based web viewer with real-time frame display, FPS monitoring, and pr
 ## 📦 Project Structure
 
 ```
-edge_detection_vr/
-├── app/                          # Android application
+Edge_Detection_VR_app/
+├── app/                                  # Android application module
 │   ├── src/main/
-│   │   ├── java/com/edgedetection/
-│   │   │   ├── MainActivity.java         # Main activity & UI
-│   │   │   ├── CameraManager.java        # Camera2 API integration
-│   │   │   └── OpenGLSurfaceView.java    # GL rendering surface
-│   │   ├── cpp/
-│   │   │   └── CMakeLists.txt            # Native build config
-│   │   └── AndroidManifest.xml
-│   └── build.gradle                       # App build configuration
+│   │   ├── java/                         # Android Java code
+│   │   ├── cpp/                          # Native C++ code
+│   │   ├── res/                          # Android resources
+│   │   └── AndroidManifest.xml           # App manifest
+│   ├── build/                            # Build output (generated)
+│   └── build.gradle                      # App build configuration
 │
-├── jni/                          # Native C++ code
-│   ├── CMakeLists.txt            # OpenCV linking
-│   ├── ImageProcessor.cpp        # Edge detection & processing
-│   └── ImageProcessor.h
+├── gl/                                   # OpenGL utilities
+│   ├── GLRenderer.java                   # OpenGL ES 2.0 renderer
+│   └── ImageProcessor.java               # JNI bindings
 │
-├── gl/                           # OpenGL utilities
-│   ├── GLRenderer.java           # OpenGL ES 2.0 renderer
-│   └── ImageProcessor.java       # JNI bindings
+├── jni/                                  # Native C++ code
+│   ├── CMakeLists.txt                    # CMake build configuration
+│   └── ImageProcessor.cpp                # Edge detection & processing
 │
-├── web/                          # TypeScript web viewer
-│   ├── index.html                # UI template
-│   ├── index.js                  # Frame processor & logic
-│   ├── styles.css                # Styling & effects
-│   ├── package.json              # Dependencies
-│   └── tsconfig.json             # TypeScript config
+├── web/                                  # TypeScript web viewer
+│   ├── index.html                        # Web UI template
+│   ├── index.js                          # Frame processor & logic
+│   ├── styles.css                        # Web styling
+│   ├── package.json                      # NPM dependencies
+│   ├── tsconfig.json                     # TypeScript configuration
+│   ├── node_modules/                     # NPM packages (generated)
+│   └── package-lock.json                 # Dependency lock file
 │
-├── build.gradle                  # Root build config
-├── settings.gradle               # Gradle settings
-├── local.properties              # SDK paths
-└── README.md                     # This file
+├── gradle/                               # Gradle wrapper
+│   └── wrapper/
+│       └── gradle-wrapper.properties      # Gradle version config
+│
+├── build.gradle                          # Root build configuration
+├── settings.gradle                       # Gradle project settings
+├── gradle.properties                     # Gradle properties
+├── local.properties                      # Local SDK/NDK paths
+├── gradlew                               # Gradle wrapper (Linux/Mac)
+├── gradlew.bat                           # Gradle wrapper (Windows)
+├── .gitignore                            # Git ignore rules
+│
+├── README.md                             # Project documentation
+├── SUBMISSION_SUMMARY.md                 # Project summary
+│
+└── Screenshots/
+    ├── Edge\ detection.jpg               # Edge detection mode demo
+    ├── Raw\ detection.jpg                # Raw camera feed demo
+    └── web.jpg                           # Web viewer interface demo
 ```
 
 ---
@@ -133,8 +147,8 @@ edge_detection_vr/
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/Poojitha-sreeram/edge_detection_vr.git
-cd edge_detection_vr
+git clone https://github.com/Poojitha-sreeram/Edge_Detection_VR_app.git
+cd Edge_Detection_VR_app
 ```
 
 #### 2. Configure NDK Path
@@ -386,23 +400,4 @@ Push to repository:
 git push origin main
 ```
 
----
 
-## 📞 Support & Contact
-
-For questions about this implementation:
-- Review the code comments
-- Check Android/OpenCV documentation
-- OpenGL ES reference: Khronos Group docs
-
----
-
-## 📄 License
-
-Educational project for DSU RnD Assessment
-
----
-
-**Last Updated**: November 14, 2025
-**Duration**: 3 Days
-**Submission Link**: [Assessment Form](https://forms.gle/Qmqc6cwzBRyySFN49)
