@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edge Detection Viewer - RnD Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Real-Time Edge Detection Viewer</h1>
+            <p class="subtitle">Android + OpenCV + OpenGL + Web</p>
+        </header>
+
+        <main>
+            <div class="viewer-section">
+                <div class="frame-container">
+                    <canvas id="frameCanvas" width="640" height="480"></canvas>
+                    <div class="overlay">
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="label">FPS:</span>
+                                <span class="value" id="fps">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="label">Resolution:</span>
+                                <span class="value" id="resolution">640x480</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="label">Mode:</span>
+                                <span class="value" id="mode">Edge Detection</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="label">Processing:</span>
+                                <span class="value" id="processingTime">0ms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls-section">
+                <button class="btn btn-primary" onclick="loadSampleFrame()">Load Sample Frame</button>
+                <button class="btn btn-secondary" onclick="toggleMode()">Toggle Mode</button>
+                <button class="btn btn-info" onclick="clearFrame()">Clear</button>
+                <input type="file" id="imageInput" accept="image/*" onchange="handleImageUpload(event)" style="display:none;">
+                <button class="btn btn-success" onclick="document.getElementById('imageInput').click()">Upload Image</button>
+            </div>
+
+            <div class="info-section">
+                <h2>About This Viewer</h2>
+                <p>
+                    This is a minimal web viewer demonstrating the integration of Android native processing 
+                    with a web-based display layer. The processed frame from the Android application 
+                    (edge detection output from OpenCV) is displayed here with real-time statistics.
+                </p>
+                <h3>Features:</h3>
+                <ul>
+                    <li>Real-time frame display from native processing</li>
+                    <li>FPS and performance metrics</li>
+                    <li>Processing mode toggle</li>
+                    <li>Sample frame loading for demonstration</li>
+                    <li>TypeScript-based modular architecture</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 RnD Assessment | Edge Detection VR Project</p>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
