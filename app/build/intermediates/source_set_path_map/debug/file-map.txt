@@ -1,0 +1,32 @@
+com.edgedetection.app-lifecycle-viewmodel-2.6.1-0 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\1c6d3904440c835f799bf552eac130b9\transformed\lifecycle-viewmodel-2.6.1\res
+com.edgedetection.app-jetified-camera-view-1.3.0-1 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\2259428fe907b63a58047c5df545bc03\transformed\jetified-camera-view-1.3.0\res
+com.edgedetection.app-jetified-camera-lifecycle-1.3.0-2 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\273e3026974e9d3880d97c4f73be7de3\transformed\jetified-camera-lifecycle-1.3.0\res
+com.edgedetection.app-jetified-emoji2-1.2.0-3 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\3ba2aef30d863ed6c274b18e19aa78d6\transformed\jetified-emoji2-1.2.0\res
+com.edgedetection.app-lifecycle-livedata-core-2.6.1-4 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\4d408b1385ffa239c7948af0f3ebefab\transformed\lifecycle-livedata-core-2.6.1\res
+com.edgedetection.app-core-1.12.0-5 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\4dd003225c5be4544c00c4ec41938dc6\transformed\core-1.12.0\res
+com.edgedetection.app-jetified-profileinstaller-1.3.0-6 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\51c962d32313dc6f30ed24d6ede68dba\transformed\jetified-profileinstaller-1.3.0\res
+com.edgedetection.app-jetified-camera-core-1.3.0-7 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\6bac8be74524ed535d91c15ede7e6beb\transformed\jetified-camera-core-1.3.0\res
+com.edgedetection.app-jetified-annotation-experimental-1.3.1-8 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\6f4d3a844d79b5ca85e6d0a47ff00110\transformed\jetified-annotation-experimental-1.3.1\res
+com.edgedetection.app-jetified-camera-video-1.3.0-9 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\74ed7b7c73dc3e2be93e16b456afcba6\transformed\jetified-camera-video-1.3.0\res
+com.edgedetection.app-core-runtime-2.2.0-10 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\75dafe74dd4b3372e0f6ad28b6199f8e\transformed\core-runtime-2.2.0\res
+com.edgedetection.app-constraintlayout-2.1.4-11 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\8002349449dcb3a91194b91bc794017c\transformed\constraintlayout-2.1.4\res
+com.edgedetection.app-jetified-core-ktx-1.12.0-12 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\803c75f4f3b5b101585b4ff40346f58c\transformed\jetified-core-ktx-1.12.0\res
+com.edgedetection.app-jetified-savedstate-1.2.1-13 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\80d58af94f9a7f98045bc549aa9486d4\transformed\jetified-savedstate-1.2.1\res
+com.edgedetection.app-jetified-camera-camera2-1.3.0-14 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\871dca1ca69f9cf51ee48aa61a0c9901\transformed\jetified-camera-camera2-1.3.0\res
+com.edgedetection.app-jetified-lifecycle-process-2.6.1-15 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\933f7ba513415a1880e603028f0bb462\transformed\jetified-lifecycle-process-2.6.1\res
+com.edgedetection.app-appcompat-1.6.1-16 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\9aaaf5da9a65b3cbd15e6a22f82ed8f1\transformed\appcompat-1.6.1\res
+com.edgedetection.app-jetified-appcompat-resources-1.6.1-17 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\ab06c260e0658f12e4d91199d5447cea\transformed\jetified-appcompat-resources-1.6.1\res
+com.edgedetection.app-fragment-1.6.0-18 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\ab47475d86136d08ac01724353e01040\transformed\fragment-1.6.0\res
+com.edgedetection.app-jetified-activity-1.6.0-19 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\abd08ad504e2a53cc072e6444ced71f2\transformed\jetified-activity-1.6.0\res
+com.edgedetection.app-jetified-emoji2-views-helper-1.2.0-20 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\ae9200a52fa99307d28eb9a247d026d6\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.edgedetection.app-jetified-startup-runtime-1.1.1-21 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\cd6c676cf4c636bf1ec3c5ddf32ba2a6\transformed\jetified-startup-runtime-1.1.1\res
+com.edgedetection.app-lifecycle-runtime-2.6.1-22 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\f4fa3d3ccac9adf816af6e479d5f230d\transformed\lifecycle-runtime-2.6.1\res
+com.edgedetection.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-23 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\f733a14c40d3729a5ab3b8829382b8c9\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.edgedetection.app-lifecycle-livedata-2.6.1-24 C:\Users\Ravindranath Tagore\.gradle\caches\transforms-3\f7741d26d24d1b46a7e1ea43ca47c89c\transformed\lifecycle-livedata-2.6.1\res
+com.edgedetection.app-pngs-25 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\build\generated\res\pngs\debug
+com.edgedetection.app-resValues-26 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\build\generated\res\resValues\debug
+com.edgedetection.app-packageDebugResources-27 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.edgedetection.app-packageDebugResources-28 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.edgedetection.app-merged_res-29 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\build\intermediates\merged_res\debug
+com.edgedetection.app-debug-30 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\src\debug\res
+com.edgedetection.app-main-31 C:\Users\Ravindranath Tagore\Downloads\New folder (3)\New folder (3)\app\src\main\res

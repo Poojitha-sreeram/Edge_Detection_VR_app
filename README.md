@@ -49,6 +49,25 @@ This project showcases a complete integration of:
 
 ---
 
+## 📸 Screenshots
+
+### Android App - Edge Detection Mode
+Real-time edge detection visualization running on Android with Canny algorithm. Shows detected edges highlighted on the processed frame with 59 FPS performance.
+
+![Edge Detection Mode](app_screenshot_fixed.png)
+
+### Android App - Raw Feed Mode
+Raw camera feed displayed in real-time using OpenGL ES 2.0 rendering. Shows the original camera input before edge detection processing.
+
+![Raw Feed Mode](screenshot_edge_test.png)
+
+### Web Viewer Dashboard
+TypeScript-based web viewer with real-time frame display, FPS monitoring, and processing statistics. Features responsive design with interactive controls.
+
+![Web Viewer Dashboard](camera_feed.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Android SDK**: API 24+ (Android 7.0+)
